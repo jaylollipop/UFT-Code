@@ -1,0 +1,7 @@
+Command VB Script
+
+/// Highlight  
+Browser("TRADEPAQ.EDM: Transaction").Page("TRADEPAQ.EDM: Transaction").WebElement("oCMenu_item7").Highlight 
+
+//// ON Mouse
+Browser("TRADEPAQ.EDM: Transaction").Page("TRADEPAQ.EDM: Transaction").WebElement("oCMenu_item7").FireEvent "onmouseover"
